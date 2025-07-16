@@ -14,3 +14,52 @@
   color: white;
   text-decoration: line-through;
 }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff0f5;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #b30059;
+}
+
+#malla {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.semestre {
+  background-color: #ffe0f0;
+  border: 2px solid #ff80bf;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.semestre h2 {
+  text-align: center;
+  color: #800040;
+}
+
+.ramo {
+  background-color: #ffcce0;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s, text-decoration 0.3s;
+}
+
+.ramo.aprobado {
+  background-color: #cc66cc;
+  text-decoration: line-through;
+  color: white;
+}
+
+.ramo.bloqueado {
+  background-color: #ffe6f0;
+  color: #aaa;
+  cursor: not-allowed;
+}
