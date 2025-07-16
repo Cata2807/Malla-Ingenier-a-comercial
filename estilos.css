@@ -1,0 +1,16 @@
+.ramo {
+  padding: 10px;
+  margin: 5px;
+  background-color: pink; /* No aprobado */
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  width: 180px;
+}
+
+.ramo.aprobado {
+  background-color: purple;
+  color: white;
+  text-decoration: line-through;
+}
